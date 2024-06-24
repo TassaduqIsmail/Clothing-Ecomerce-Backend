@@ -1,0 +1,48 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "update-version:major": "node updateVersion.js major",
+    "update-version:minor": "node updateVersion.js minor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "fcm-node": "^1.6.1",
+    "firebase-admin": "^12.1.0",
+    "fs": "^0.0.1-security",
+    "get-image-colors": "^4.0.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jimp": "^0.22.12",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.12",
+    "path": "^0.12.7",
+    "seedrandom": "^3.0.5",
+    "sharp": "^0.33.4",
+    "slugify": "^1.6.5",
+    "socket.io": "^4.7.5",
+    "stripe": "^15.1.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
